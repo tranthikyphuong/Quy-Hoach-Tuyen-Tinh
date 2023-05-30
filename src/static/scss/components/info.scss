@@ -1,0 +1,28 @@
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    width: 80vw;
+    user-select: none;
+    background-color: #fdf4f5;
+    border-radius: 8px;
+}
+.info-img {
+    width: 80%;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.info-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+.info-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    cursor: pointer;
+    top: 0.5rem;
+    right: 0.5rem;
+}
